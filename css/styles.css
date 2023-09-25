@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background: var(--white);
   color: var(--grey);
 }
@@ -114,7 +114,7 @@ img {
 }
 
 .logo-header {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: var(--blue);
   font-size: 18px;
   font-style: normal;
@@ -157,7 +157,7 @@ img {
 }
 
 .current-link::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: -1px;
@@ -218,7 +218,7 @@ img {
 }
 
 .order-btn {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background: var(--blue);
   color: var(--white);
   font-size: 16px;
@@ -473,7 +473,7 @@ img {
 
 .logo-footer {
   color: var(--blue);
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -504,7 +504,7 @@ img {
 
 .footer-social {
   color: var(--white);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -548,7 +548,7 @@ img {
 
 .f-label-p {
   color: var(--white);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -580,7 +580,7 @@ img {
 
 .f-sub-inp::placeholder {
   color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -699,7 +699,7 @@ img {
   width: 360px;
   color: var(--darkgrey);
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -719,7 +719,7 @@ img {
 .modal-label {
   display: block;
   color: var(--lightgray);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -797,7 +797,7 @@ img {
 
 .modal-textarea::placeholder {
   color: rgba(46, 47, 66, 0.4);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -814,7 +814,7 @@ img {
 
 .label-privacy {
   color: var(--lightgray);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -866,7 +866,7 @@ img {
 
   color: var(--white, #fff);
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -880,4 +880,30 @@ img {
 
 .modal-send-btn:focus {
   background-color: var(--shadowblue);
+}
+
+/* ! MEDIA  */
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .header {
+    display: none;
+  }
+
+  .our-feature {
+    flex-wrap: wrap;
+  }
+
+  .feature-img {
+    display: none;
+  }
+
+  .feature-title {
+    text-align: center;
+  }
+}
+
+@media screen and (min-height: 768px) {
+}
+
+@media screen and (min-width: 1158px) {
 }
