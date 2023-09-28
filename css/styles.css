@@ -890,15 +890,30 @@ img {
   }
 
   .our-feature {
-    flex-wrap: wrap;
+    flex-direction: column;
   }
 
   .feature-img {
     display: none;
   }
 
+  .feature-list {
+    margin-bottom: 72px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+  }
+
   .feature-title {
     text-align: center;
+    font-weight: 700;
+  }
+
+  .feature-desc {
+    width: 100%;
+    color: var(--SLATE, #434455);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
   }
 }
 
