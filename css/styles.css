@@ -1132,6 +1132,40 @@ img {
     transform: translateX(0);
   }
 
+  .mobile-close-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #e7e9fc;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .mobile-close-btn:active {
+    background-color: #404bbf;
+    border: none;
+  }
+
+  .mobile-close-btn-ico {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .mobile-close-btn:hover .mobile-close-btn-ico {
+    fill: #ffffff;
+  }
+
+  .mobile-close-btn:focus .mobile-close-btn-ico {
+    fill: #ffffff;
+  }
+
   .mobile-menu-link {
     display: flex;
     flex-direction: column;
